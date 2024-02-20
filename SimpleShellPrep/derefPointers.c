@@ -16,7 +16,7 @@ int main(void)
 	c = 'H';
 	pp = &c;
 	n = 98;
-	p = &n;
+	p = &n;  /*Takes the hexadecimal value of the the address on and assigns it to p*/
 
 	printf("Value of 'c': %d('%c')",c,c);
 	printf("Address of 'c': %p\n", &c);
